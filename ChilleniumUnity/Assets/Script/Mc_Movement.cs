@@ -6,11 +6,11 @@ public class Mc_Movement : MonoBehaviour {
 
 	public float Mc_speed;
 
-    private Rigidbody Mc_rb;
+    public Rigidbody2D Mc_rb;
 
     void Start()
     {
-        Mc_rb = GetComponent<Rigidbody>();
+        Mc_rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
