@@ -22,4 +22,4 @@ public class MovementScript : MonoBehaviour {
         rb.AddForce(movement * speed);
     }
 }
-}
+
