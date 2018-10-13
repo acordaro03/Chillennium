@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c47063c57040390488e7c2630d5b8e19
+  - enabled: 1
     path: Assets/Scenes/Moth.unity
     guid: 453f47ee061355a408f7dc185d2314d4
+  - enabled: 1
+    path: Assets/Scenes/Rat.unity
+    guid: 8ad5bd2f4eaf25941a413faa2a16e2fa
+  - enabled: 1
+    path: Assets/Scenes/Dog.unity
+    guid: 650b0060d90356c408c4ffdf1a25c7a5
   m_configObjects: {}
