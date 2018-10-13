@@ -6,12 +6,6 @@ using UnityEngine;
 public class Mc_Movement : MonoBehaviour
 {
     public float speed = 1.5f;
-    private Rigidbody2D rb;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
 
     private void Update()
     {
